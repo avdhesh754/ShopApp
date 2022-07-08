@@ -2,6 +2,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:shopapp/Views/HomeScreen.dart';
+import 'package:shopapp/Views/btm_bar.dart';
 
 
 class SplashScreen extends StatefulWidget {
@@ -23,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
         splashTransition: SplashTransition.fadeTransition,
 
         duration: 3000,
-        nextScreen: HomeScreen());
+        nextScreen: BottomBarScreen());
 
   }
 }
